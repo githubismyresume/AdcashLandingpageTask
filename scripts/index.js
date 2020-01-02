@@ -2,7 +2,7 @@ const footballImage = document.querySelector('.img-wrapper');
 const popupWrapper = document.querySelector('.popupWrapper');
 
 const displayText = textAlert => {
-  footballImage.addEventListener('mousehover', () => {
+  footballImage.addEventListener('click', () => {
     textAlert();
     console.log('image clicked');
   });
