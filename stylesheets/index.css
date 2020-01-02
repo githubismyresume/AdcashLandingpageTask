@@ -241,7 +241,12 @@ button a:hover {
     width: 100%;
   }
 
+  .log {
+    margin-bottom: 9rem;
+  }
+
   .img-wrapper {
+    width: 100%;
     height: 300px;
     position: relative;
     z-index: 0;
@@ -253,7 +258,7 @@ button a:hover {
     position: absolute;
     z-index: 2;
     margin: 0 auto;
-    top: 25rem;
+    top: 35rem;
   }
 }
 
